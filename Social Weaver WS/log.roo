@@ -1,0 +1,100 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-03 20:40:37
+hint
+project --topLevelPackage at.ac.uibk.qe.sowe
+hint
+jpa setup --provider OPENJPA --database POSTGRES 
+hint
+entity jpa --class ~.Anchor
+field number --fieldName oid --notNull 1 --type long 
+field string --fieldName ancestorId 
+field string --fieldName url
+field string --fieldName elementId
+field string --fieldName elementContent
+entity jpa --class ~.SocialElement
+field string --fieldName content
+focus --class ~.Anchor
+field set --fieldName socialElement --type ~.SocialElement
+hint
+help
+json all
+web mvc setup
+hint
+help controller
+controller all --package at.ac.uibk.qe.sowe.controller
+web mvc json all
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-03 21:08:11
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-03 21:21:45
+hint
+hint
+hint
+hint
+hint
+hint
+help 
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-03 21:23:20
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-03 21:23:34
+hint 
+hint
+download status
+download status
+download status
+download status
+download status
+download status
+download status
+download status
+download accept terms of use
+download accept terms of use
+download accept terms of use
+download accept terms of use
+download accept terms of use
+download accept terms of use
+download accept terms of use
+download status
+download status
+hint
+                help
+addon search 
+addon search 
+addon search
+addon list 
+addon list 
+addon list
+addon list
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-04 12:45:37
+hint
+focus --class ~.Anchor
+hint
+field date --fieldName lmTimestamp --type java.util.Date
+jpa setup --provider OPENJPA --database POSTGRES 
+hint
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-05 11:47:06
+focus --class ~.Anchor
+hint
+// [failed] field number --fieldName timestamp --type long
+field number --fieldName lastModifiedTimestamp --type long
+entity jpa --class ~.Anchor 
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-06 14:42:04
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-07 09:45:59
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-27 16:28:08
+hint
+focus --class ~.Anchor
+field string --fieldName jsonPayload 
+hint
+help
+hint
+perform tests
+test integration
+hint test
+help test
+test mock
+test stub
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-29 09:22:26
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-29 09:22:40
+// Spring Roo 1.2.4.BUILD-SNAPSHOT [rev 131a17e] log opened at 2013-07-20 11:51:50
+hint
+// Spring Roo 1.2.4.BUILD-SNAPSHOT [rev 131a17e] log opened at 2013-08-19 10:58:15

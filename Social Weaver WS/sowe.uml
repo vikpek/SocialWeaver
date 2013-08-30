@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>at.ac.uibk.qe.sowe</OriginalElement>
+  <nodes>
+    <node x="1302.0" y="55.0">at.ac.uibk.qe.sowe.SocialElement</node>
+    <node x="861.0" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_Configurable</node>
+    <node x="-9.5" y="905.0">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_Entity</node>
+    <node x="294.0" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_ToString</node>
+    <node x="1107.0" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Json</node>
+    <node x="1986.5" y="265.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_ActiveRecord</node>
+    <node x="-36.0" y="1925.5">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean</node>
+    <node x="1355.0" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_ToString</node>
+    <node x="457.5" y="265.0">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller</node>
+    <node x="127.5" y="1345.0">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_ActiveRecord</node>
+    <node x="-28.0" y="1478.0">at.ac.uibk.qe.sowe.controller.AnchorController</node>
+    <node x="495.5" y="1945.0">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService</node>
+    <node x="1400.0" y="1945.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Configurable</node>
+    <node x="573.5" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_JavaBean</node>
+    <node x="1238.5" y="905.0">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller</node>
+    <node x="1000.5" y="1945.0">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller_Json</node>
+    <node x="-18.5" y="2225.0">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller_Json</node>
+    <node x="735.0" y="1449.0">at.ac.uibk.qe.sowe.controller.SocialElementController</node>
+    <node x="-32.0" y="2305.0">at.ac.uibk.qe.sowe.Anchor_Roo_Json</node>
+    <node x="1594.5" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_JavaBean</node>
+    <node x="443.5" y="585.0">at.ac.uibk.qe.sowe.Anchor</node>
+    <node x="1489.5" y="1385.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_Entity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="at.ac.uibk.qe.sowe.Anchor" target="at.ac.uibk.qe.sowe.SocialElement">
+      <point x="0.0" y="-335.0" />
+      <point x="800.0" y="320.0" />
+      <point x="-298.0" y="40.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_ActiveRecord" target="at.ac.uibk.qe.sowe.SocialElement">
+      <point x="0.0" y="-15.0" />
+      <point x="2120.0" y="0.0" />
+      <point x="1600.0" y="0.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller" target="at.ac.uibk.qe.sowe.SocialElement">
+      <point x="142.5" y="0.0" />
+      <point x="-298.0" y="0.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_Entity" target="at.ac.uibk.qe.sowe.SocialElement">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="225.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_Entity" target="at.ac.uibk.qe.sowe.Anchor">
+      <point x="89.5" y="0.0" />
+      <point x="-356.5" y="0.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_ActiveRecord" target="at.ac.uibk.qe.sowe.Anchor">
+      <point x="112.5" y="0.0" />
+      <point x="760.0" y="1360.0" />
+      <point x="-40.0" y="335.0" />
+    </edge>
+    <edge source="at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller" target="at.ac.uibk.qe.sowe.Anchor">
+      <point x="-121.5" y="0.0" />
+      <point x="356.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.2528541226215645" x="1109.0" y="1162.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

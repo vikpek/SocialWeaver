@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+        <meta content="IE=8" http-equiv="X-UA-Compatible"/>
+        <link href="/resources/dijit/themes/tundra/tundra.css" type="text/css" rel="stylesheet"/>
+        <link href="/resources/styles/standard.css" media="screen" type="text/css" rel="stylesheet"/>
+        <link href="/resources/images/favicon.ico" rel="SHORTCUT ICON"/>
+        <script type="text/javascript">var djConfig = {parseOnLoad: false, isDebug: false, locale: 'en-us'};</script>
+        <script type="text/javascript" src="/resources/dojo/dojo.js"></script>
+        <script type="text/javascript" src="/resources/spring/Spring.js"></script>
+        <script type="text/javascript" src="/resources/spring/Spring-Dojo.js"></script>
+        <script type="text/javascript" language="JavaScript">dojo.require("dojo.parser");</script>
+        <title>Welcome to Sowe</title>
+    </head>
+    <body class="tundra spring">
+        <div id="wrapper">
+            <div version="2.0" id="header">
+                <a title="Home" name="Home" href="/">
+                    <img src="/resources/images/banner-graphic.png"/>
+                </a>
+            </div>
+            <div id="main">
+                <div version="2.0">
+                    <script type="text/javascript">dojo.require('dijit.TitlePane');</script>
+                    <div id="_title_title_id">
+                        <script type="text/javascript">Spring.addDecoration(new Spring.ElementDecoration({elementId :
+                            '_title_title_id', widgetType : 'dijit.TitlePane', widgetAttrs : {title: 'Internal Error',
+                            open: true}}));
+                        </script>
+                        <h2>Internal Error</h2>
+                        <p>Sorry, we encountered an internal error.</p>
+                        <p>
+                            <h4>Details</h4>
+                            <script type="text/javascript">dojo.require('dijit.TitlePane');</script>
+                            <div id="_title__message_id">
+                                <script type="text/javascript">Spring.addDecoration(new
+                                    Spring.ElementDecoration({elementId : '_title__message_id', widgetType :
+                                    'dijit.TitlePane', widgetAttrs : {title: 'Exception Message', open: false}}));
+                                </script>
+                            </div>
+                            <script type="text/javascript">dojo.require('dijit.TitlePane');</script>
+                            <div id="_title__exception_id"><script type="text/javascript">Spring.addDecoration(new
+                                Spring.ElementDecoration({elementId : '_title__exception_id', widgetType :
+                                'dijit.TitlePane', widgetAttrs : {title: 'Exception Stack Trace', open:
+                                false}}));</script>at.ac.uibk.qe.sowe.Anchor.oidGenerator(Anchor.java:58)<br/>
+                                at.ac.uibk.qe.sowe.Anchor.setGeneratedOid(Anchor.java:52)<br/>
+                                at.ac.uibk.qe.sowe.Anchor.persist(Anchor.java:69)<br/>
+                                at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller.ajc$interMethod$at_ac_uibk_qe_sowe_controller_AnchorController_Roo_Controller$at_ac_uibk_qe_sowe_controller_AnchorController$create(AnchorController_Roo_Controller.aj:30)
+                                <br/>at.ac.uibk.qe.sowe.controller.AnchorController.create(AnchorController.java:1)<br/>
+                                sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+                                sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br/>
+                                sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                                <br/>java.lang.reflect.Method.invoke(Method.java:601)<br/>
+                                org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219)
+                                <br/>
+                                org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+                                <br/>
+                                org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+                                <br/>
+                                org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:746)
+                                <br/>
+                                org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:687)
+                                <br/>
+                                org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+                                <br/>
+                                org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+                                <br/>
+                                org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+                                <br/>
+                                org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:915)
+                                <br/>org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:822)
+                                <br/>javax.servlet.http.HttpServlet.service(HttpServlet.java:647)<br/>
+                                org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:796)<br/>
+                                javax.servlet.http.HttpServlet.service(HttpServlet.java:728)<br/>
+                                org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+                                <br/>
+                                org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:180)
+                                <br/>
+                                org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+                                <br/>
+                                org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+                                <br/>
+                                org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+                                <br/>
+                                org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+                                <br/>
+                                org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+                                <br/>
+                                org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+                                <br/>org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+                                <br/>org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+                                <br/>
+                                org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+                                <br/>org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)<br/>
+                                org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)<br/>
+                                org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:947)<br/>
+                                org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)<br/>
+                                org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)<br/>
+                                org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+                                <br/>
+                                org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+                                <br/>org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+                                <br/>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+                                <br/>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+                                <br/>java.lang.Thread.run(Thread.java:722)
+                                <br/>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div version="2.0" id="footer">
+                    <span>
+                        <a href="/">Home</a>
+                    </span>
+                    <span id="language">| Language:
+                        <a title="Switch language to English" href="?lang=en">
+                            <img alt="Switch language to English" src="/resources/images/en.png" class="flag"/>
+                        </a>
+                    </span>
+                    <span>| Theme:
+                        <a title="standard" href="?theme=standard">standard</a>
+                        |
+                        <a title="alt" href="?theme=alt">alt</a>
+                    </span>
+                    <span>
+                        <a title="Sponsored by SpringSource" href="http://springsource.com">
+                            <img src="/resources/images/springsource-logo.png" alt="Sponsored by SpringSource"
+                                 align="right"/>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

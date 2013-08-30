@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_at_ac_uibk_qe_sowe_Anchor" object="${anchor}" path="/anchors" z="inKVbwvoz1QaLL7fzTJOVEiz2Y8=">
+        <field:display field="oid" id="s_at_ac_uibk_qe_sowe_Anchor_oid" object="${anchor}" z="0HuvyFcHAKuMZ7rtplsIOC6J7OE="/>
+        <field:display field="url" id="s_at_ac_uibk_qe_sowe_Anchor_url" object="${anchor}" z="I0k836jE5GkW0DtEquJ80VVbrtU="/>
+        <field:display field="lastModifiedTimestamp" id="s_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" object="${anchor}" z="fKAbvyfv3I78oySBeXq5VKLgvSk="/>
+        <field:display field="payload" id="s_at_ac_uibk_qe_sowe_Anchor_payload" object="${anchor}" z="wpuLLy8iOfKEGSb8UapTWok76fc="/>
+        <field:display field="binaryPayload" id="s_at_ac_uibk_qe_sowe_Anchor_binaryPayload" object="${anchor}" z="bAiCRdA/1tKo20H4naGSwsSs+6g="/>
+    </page:show>
+</div>

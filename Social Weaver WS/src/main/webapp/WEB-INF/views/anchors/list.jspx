@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_at_ac_uibk_qe_sowe_Anchor" items="${anchors}" z="D6kAKD1dCG+0k9t/6/klP045Tko=">
+        <table:table data="${anchors}" id="l_at_ac_uibk_qe_sowe_Anchor" path="/anchors" z="sB1z4UefntuD6miK4PmxLNN7rRc=">
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_oid" property="oid" z="xT1Cl6pTlNoqrj0whfqTiuWokzo="/>
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_url" property="url" z="vcvPHKDnO6sT6YrrlmEjdgeDL7o="/>
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" property="lastModifiedTimestamp" z="akYuFTgQnPGNouQ2K7+aQqxV03w="/>
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_payload" property="payload" z="bnDA3g0M54Wy5qK2tUKtaNadcvY="/>
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_binaryPayload" property="binaryPayload" z="OfvVx8hfS3Al45nXCzatOx8PW9g="/>
+        </table:table>
+    </page:list>
+</div>
