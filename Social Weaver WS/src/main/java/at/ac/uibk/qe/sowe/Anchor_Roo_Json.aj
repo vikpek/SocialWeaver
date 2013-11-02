@@ -3,9 +3,9 @@
 
 package at.ac.uibk.qe.sowe;
 
-import at.ac.uibk.qe.sowe.Anchor;
 import flexjson.JSONDeserializer;
 import flexjson.JSONSerializer;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
