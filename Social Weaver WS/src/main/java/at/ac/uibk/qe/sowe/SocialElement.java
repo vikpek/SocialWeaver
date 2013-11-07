@@ -10,6 +10,5 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJpaActiveRecord
 @RooJson
 public class SocialElement {
-
     private String content;
 }
