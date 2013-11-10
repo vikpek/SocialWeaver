@@ -1,5 +1,5 @@
 News
-============
+=======
 11.11.2013 - Presentation of Social Weaver at the ERP Future 2013 in Vienna
 
 Social Weaver
