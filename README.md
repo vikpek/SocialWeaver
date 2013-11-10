@@ -19,7 +19,7 @@ For the case you attended our presentation at the conference, you'll remember th
 
 Perform the following steps:
 
-1. Download the specifically designed Firefox Plugin for the ERP Future from ___ and install it.
+1. Download the specifically designed Firefox Plugin for the ERP Future from http://goo.gl/pPUyZ6 and install it. (You can as well use the plugin from the repository here: 'socialweaver-erp-future.xpi')
 2. Finally open "http://2013.erp-future.com/"
 
 You already should see the annotations we made at the live demo in Vienna. (If not - try refreshing the website.)
